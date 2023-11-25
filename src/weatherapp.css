@@ -1,0 +1,41 @@
+.container {
+  display: block;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.current-temperature-city {
+  margin: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+
+.measure,
+.weather-emoji {
+  font-size: 60px;
+  vertical-align: top;
+}
+.unit {
+  font-size: 15px;
+}
+
+.search-bar {
+  width: 100%;
+}
+input {
+  height: 36px;
+}
+
+.container {
+  max-width: 700px;
+}
+
+.day-weather {
+  margin: 50px;
+  text-align: center;
+}
